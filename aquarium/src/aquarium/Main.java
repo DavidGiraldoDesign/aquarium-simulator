@@ -1,6 +1,6 @@
 package aquarium;
 
-import processing.core.PApplet;
+import processing.core.*;
 
 public class Main extends PApplet{
 	private Logic l;
@@ -13,7 +13,9 @@ public class Main extends PApplet{
 	public void settings() {
 		// TODO Auto-generated method stub
 		//super.settings();
+		//size(1200,700,PApplet.P3D);
 		size(1200,700);
+		
 	}
 	
 	@Override
